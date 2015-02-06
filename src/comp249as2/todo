@@ -1,29 +1,43 @@
 TODO LIST
 
-As of FEB 06 4:40pm
+As of FEB 06 5:30pm
 
 *** roulettetable class
-		-array for euro
-		-array for american
+		-array for euro 	(from 0 to 26)
+		-array for american	(from 0 to 2) [but why 2? get rekt]
+		-From driver, access boolean isAmerican (to determine which table has been chosen)
 		-util.random choose a number
+			-limited (from 0 to size of array)
+			-getter for this number?
 		-SOP wheel at the beginning
 
 
 *** Player class
-		-6 players, player 1 is VIP (hardcode)
 		-regular player and vip player
-				-token values
-				-vip player bonuses
-		-record winnings
+			-different token values
+			-vip player has bonuses
+		-6 players, player 1 is VIP (hardcode)
+			-each can make max of 5 bets (can be less) -> for loop making an array of variable size i
+			-each array value contains a single int which is chosen by the player
+			-inside for loop, create boolean continue -> if false, exit loop
+		-record winnings for each
+			-access dealer class calculations
 		-record number of bets
+			-add size of bets array
 		
 		
 *** Dealer class
 		-turn wheel
 		-calculate winning
+			-access data from player (array of numbers betted on)
+			-see instructions for algorithm
+			-make some .equals()
 		-make announcement
+			-winning number (access the generated random number in table class)
+			-who wins what	(access
 		
 		
 *** Driver class
 		-choose whether to generate US table or euro table (can hardcode?)
+			-boolean isAmerican
 		-end after 10 rounds or when the dealer decides to stop
