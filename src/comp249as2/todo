@@ -5,7 +5,7 @@ As of FEB 06 4:40pm
 *** roulettetable class
 		-array for euro
 		-array for american
-		-util.random
+		-util.random choose a number
 		-SOP wheel at the beginning
 
 
