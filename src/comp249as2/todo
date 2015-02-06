@@ -1,0 +1,29 @@
+TODO LIST
+
+As of FEB 06 4:40pm
+
+*** roulettetable class
+		-array for euro
+		-array for american
+		-util.random
+		-SOP wheel at the beginning
+
+
+*** Player class
+		-6 players, player 1 is VIP (hardcode)
+		-regular player and vip player
+				-token values
+				-vip player bonuses
+		-record winnings
+		-record number of bets
+		
+		
+*** Dealer class
+		-turn wheel
+		-calculate winning
+		-make announcement
+		
+		
+*** Driver class
+		-choose whether to generate US table or euro table (can hardcode?)
+		-end after 10 rounds or when the dealer decides to stop
